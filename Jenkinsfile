@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clonar Repositorio') {
             steps {
-               git branch: 'main', url: 'https://github.com/W3irdev/calculatorSpring.git'
+               git branch: 'main', url: 'https://github.com/sbFranj/calculadoraSpring.git'
             }
         }
         
